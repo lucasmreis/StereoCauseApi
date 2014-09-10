@@ -2,7 +2,7 @@ var hapi = require('hapi');
 
 var bands = require('./models/bands');
 
-var server = hapi.createServer(8000);
+var server = hapi.createServer(process.env.PORT || 5000);
 
 server.route({
   method: 'GET',
