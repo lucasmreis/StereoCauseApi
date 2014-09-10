@@ -1,12 +1,14 @@
 var hapi = require('hapi');
 
+var bands = require('./models/bands');
+
 var server = hapi.createServer(8000);
 
 server.route({
   method: 'GET',
   path: '/',
   handler: function (req, reply) {
-    reply('Hello World from Stereo Cause!');
+    reply(bands());
   }
 });
 
