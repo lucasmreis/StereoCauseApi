@@ -1,0 +1,14 @@
+{
+  "name": "StereoCauseApi",
+  "version": "0.0.0",
+  "description": "Api for Stereo Cause website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lucas Reis",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^6.8.1"
+  }
+}
