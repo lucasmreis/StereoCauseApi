@@ -9,6 +9,6 @@
   "author": "Lucas Reis",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^6.8.1"
+    "hapi": "^18.1.0"
   }
 }
